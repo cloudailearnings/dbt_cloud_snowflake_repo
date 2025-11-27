@@ -1,0 +1,19 @@
+name: DBT_SNOW_PRJ
+version: 1.0.0
+config-version: 2
+profile: DBT_SNOW_PRJ
+model-paths:
+  - models
+analysis-paths:
+  - analyses
+test-paths:
+  - tests
+seed-paths:
+  - seeds
+macro-paths:
+  - macros
+snapshot-paths:
+  - snapshots
+models:
+  DBT_SNOW_PRJ:
+    +materialized: view

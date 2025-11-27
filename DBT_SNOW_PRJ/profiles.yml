@@ -1,0 +1,9 @@
+DBT_SNOW_PRJ:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: DWH_DB
+      schema: DWH_SCH
