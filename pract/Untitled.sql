@@ -1,0 +1,8 @@
+
+create or replace api integration <integration_name>
+    api_provider = git_https_api
+    api_allowed_prefixes = ('<...>')
+    enabled = true
+    allowed_authentication_secrets = all
+    -- api_user_authentication = (type = snowflake_github_app ) -- enable OAuth support
+    -- comment='<comment>';
